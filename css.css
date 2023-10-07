@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/**/
+#cookies-notice {
+    z-index: 10000;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 2px 3px 15px #00000030;
+    padding: 24px 12px;
+}
+
+#cookies-notice .content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cookies-notice .content span{
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+#cookies-notice .actions {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#cookies-notice .actions button{
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 12px 24px;
+    margin: 6px;
+    transition: background-color .5s;
+}
+
+#cookies-notice .actions button.reject{
+    border: 1px solid purple;
+    color: purple;
+}
+#cookies-notice .actions button.reject:hover{
+    background-color: red;
+    border-color: red;
+    color: #fff;
+}
+
+#cookies-notice .actions button.accept{
+    background-color: purple;
+    color: #fff;
+}
+#cookies-notice .actions button.accept:hover{
+    background-color: green;
+}
