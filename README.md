@@ -8,4 +8,4 @@ Aprenda como implementar um aviso de  cookies em seu site utilizando HTML, CSS e
 
 Garanta conformidade com regulamentos de privacidade  📜🔐 e melhore a experiência do usuário 🚀.
 
-[Link di Vídeo](https://www.youtube.com/watch?v=Ot7e3xRQBhM)
+[Link do Vídeo](https://www.youtube.com/watch?v=Ot7e3xRQBhM)
